@@ -1,0 +1,57 @@
+########################## Azure data ######################3
+
+ETL  = extract __ transform ___ load
+
+data ---- unstructured or raw data
+    - by using azure tools we will make reoprts of data in structured way
+
+
+ we will get data from source and will do manipulation or transformation(curration) and store it in 
+ 'preocessed folders ' and on top of it we will create external table eg.data bricks(tables)
+or oracle based on requirement .
+ inorder to give to end user (sink) .
+
+
+
+task 1:  what is azure
+   what are the tools ,tools usage . data factory ? curration ? flow from sourece to sink  ?
+  logic apps ? resource group ?  function app ?
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2 day 2 @@@@@@@@@@@@@@@@@@@@@@@@@
+
+language  = expression (we use expression languauge inside df)
+
+cluster is a server required for data bricks to work
+
+logic app is alike gui..ehich requires little coding
+
+create a new folder with our name and create a new pipe line "PL_usage_fileformat"
+
+copy data : set from source to sink...slect from the shown options or can create using azure delta lake storage [storage >>comtainers >> folder >>subfolders >>upload a file(any format based on requirement) from source]
+data set and files format should be same(based on type of data set only we culd be able to select file format}
+dasta sets will be dyffer for differ kinds of files
+azure function ; to execute functions
+
+iterations and conditions  ---use if else, switch ,
+
+
+data set is the ind of source(data base) :
+ and linked service helps to link the connections to existing data base ?
+
+################################# day 3 #########################################3
+
+we ahve to go through ;
+csv to parquet (csv as sorce) 
+ , parquet to json    , json to csv .
+
+create a link service and all has to use the existing one
+
+
+
+
+
+
+
+
+
+
